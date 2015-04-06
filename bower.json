@@ -1,0 +1,21 @@
+{
+  "name": "react-simple-tabs",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sourcescript/react-simple-tabs",
+  "authors": [
+    "srph <seraphipod@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./test/browser/vendor",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "mocha": "~2.2.1",
+    "chai": "~2.2.0"
+  }
+}
