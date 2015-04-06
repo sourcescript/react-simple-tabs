@@ -3,6 +3,7 @@ TEST_DIR = ./test
 BROWSER_DIR = $(TEST_DIR)/browser
 
 test:
+	# http://webpack.github.io/docs/webpack-dev-server.html
 	$(NPM_BIN)/webpack-dev-server 'mocha!$(BROWSER_DIR)/script.js' \
 		--module-bind 'jsx=babel?modules=common' \
 		--module-bind 'js=babel?modules=common' \

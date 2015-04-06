@@ -26,12 +26,15 @@ module.exports = React.createClass({
   },
 
   render: function() {
+    var active = this.state.active;
+    var activeHandler = this.activeHandler;
+
     return (
       <div>
         {React.Children.map(this.props.children, function(child, i) {
           return cloneWithProps(child, {
-            active: this.state.active,
-            activeHandler: this.activeHandler
+            active: active,
+            activeHandler: activeHandler.bind(this)
           });
         })}
       </div>
