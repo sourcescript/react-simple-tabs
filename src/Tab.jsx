@@ -12,7 +12,9 @@ module.exports = React.createClass({
     // In this case, we'd rather use the `undefined || something`
     // syntax rather than use `getDefaultProps`
     // because we're not using the `active` prop anywhere
-    // besides the initial state (if it was provided)
+    // besides the initial state (if it was provided);
+    // nor are we having any fallbacks besides the `active` prop;
+    // and this looks more explicit.
     return { active: this.props.active || 0 };
   },
 

@@ -1,6 +1,5 @@
 var React = require('react');
 var cloneWithProps = React.addons.cloneWithProps;
-var ActiveMixin = require('./ActiveMixin');
 
 module.exports = React.createClass({
   displayName: 'TabBox',
