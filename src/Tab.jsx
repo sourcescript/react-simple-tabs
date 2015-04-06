@@ -34,7 +34,7 @@ module.exports = React.createClass({
         {React.Children.map(this.props.children, function(child, i) {
           return cloneWithProps(child, {
             active: active,
-            activeHandler: activeHandler.bind(this)
+            activeHandler: activeHandler
           });
         })}
       </div>
@@ -45,7 +45,7 @@ module.exports = React.createClass({
    * Sets the `active` state to the provided index
    *
    * @usage
-   * `this.handleClick.bind(this, index);
+   * `this.handleClick(index)``;
    */
   activeHandler: function(index) {
     this.setState({ active: index });
