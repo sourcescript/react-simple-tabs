@@ -1,6 +1,6 @@
 {
   "name": "react-simple-tabs",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Tabs in React that doesn't get in your way.",
   "main": "src/index.js",
   "scripts": {
