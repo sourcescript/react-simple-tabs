@@ -1,0 +1,25 @@
+{
+  "name": "react-simple-tabs",
+  "version": "0.1.0",
+  "description": "Tabs in React that doesn't get in your way.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sourcescript/react-simple-tabs.git"
+  },
+  "author": "srph <seraphipod@gmail.com> (https://srph.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sourcescript/react-simple-tabs/issues"
+  },
+  "homepage": "https://github.com/sourcescript/react-simple-tabs",
+  "devDependencies": {
+    "karma": "^0.12.31",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "mocha": "^2.2.1"
+  }
+}
