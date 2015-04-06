@@ -1,4 +1,4 @@
-var expect = chai.expect;
+var expect = require('chai').expect;
 
 var React = require('react/addons');
 var TestUtils = React.addons.TestUtils;
