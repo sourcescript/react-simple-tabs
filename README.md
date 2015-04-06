@@ -1,4 +1,4 @@
-# react-simple-tabs
+# react-simple-tabs [![npm version](http://img.shields.io/npm/v/react-simple-tabs.svg?style=flat)](https://npmjs.org/package/react-simple-tabs) [![Build Status](https://travis-ci.org/sourcescript/react-simple-tabs.svg)](https://travis-ci.org/sourcescript/react-simple-tabs) [![Dependencies Status](https://david-dm.org/srph/reflux-flash.svg)](https://david-dm.org/sourcescript/react-simple-tabs.svg) [![devDependency Status](https://david-dm.org/cdnjs/cdnjs/dev-status.svg)](https://david-dm.org/sourcescript/react-simple-tabs#info=devDependencies)
 Tabs in React that doesn't get in your way.
 
 ## Usage
