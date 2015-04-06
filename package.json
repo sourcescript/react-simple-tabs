@@ -30,7 +30,7 @@
     "mocha-loader": "^0.7.1",
     "phantomjs-polyfill": "0.0.1",
     "sinon": "^1.14.1",
-    "webpack": "^1.7.3",
+    "webpack": "^1.7.3"
   },
   "dependencies": {
     "extend": "^2.0.0",
